@@ -1,0 +1,12 @@
+---
+ansible-navigator:
+  execution-environment:
+    container-engine: podman
+    enabled: true
+    image: quay.io/coffiguy2/ex02:1.0 
+    pull:
+      policy:  missing 
+  mode: stdout
+  playbook-artifact:
+    enable: false
+

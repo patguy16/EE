@@ -1,0 +1,7 @@
+---
+- name: Testing
+  hosts: test
+  tasks:
+    - name: Test debug
+      ansible.builtin.debug:
+        msg: "The server's {{ ansible_hostname }}"
